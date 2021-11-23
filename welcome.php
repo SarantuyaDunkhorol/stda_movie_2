@@ -26,5 +26,6 @@
         <br>
         <input type="submit" value="Add Movie" name="add_movie">
     </form>
+    <a href="profile.php">Profile</a>
 </body>
 </html>

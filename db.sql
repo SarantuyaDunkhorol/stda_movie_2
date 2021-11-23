@@ -14,3 +14,8 @@ create table users (
     userpassword varchar(255) not null,
     userstatus varchar(255) not null
 );
+
+alter table users ADD code int(11);
+alter table users ADD status varchar(255) not null default 'not verified';
+
+alter table users MODIFY COLUMN code INT(11) NOT NULL;

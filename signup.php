@@ -11,10 +11,13 @@
 </head>
 <body>
     <form action="data_controller_1.php" method="post">
-        <input type="text" name="username" placeholder="Username">
-        <input type="text" name="email" placeholder="Email">
-        <input type="password" name="password" placeholder="Password">
-        <input type="submit" value="Sign-Up" name="signup">
+        <h1>SIGNUP</h1>
+        <input type="text" name="username" placeholder="Username"><br>
+        <input type="text" name="email" placeholder="Email"><br>
+        <input type="password" name="password" placeholder="Password"><br>
+        <input type="password" name="cpassword" placeholder="Repeat password"><br>
+        <input type="submit" value="Sign-Up" name="signup"><br>
     </form>
+        <p>Already have an Account? <a href="login.php">LOGIN</a></p>
 </body>
 </html>

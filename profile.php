@@ -25,7 +25,9 @@
     <title>Document</title>
 </head>
 <body>
-    <a href="index.php">Home</a>
-    <a href="welcome.php">Add movie</a>
+    <a href="index.php">Home</a><br>
+    <a href="welcome.php">Add movie</a><br>
+    <a href="logout.php">Logout</a>
+
 </body>
 </html>

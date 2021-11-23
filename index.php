@@ -29,7 +29,7 @@ $result = mysqli_query($connection, $query);
             <!-- navbar brand / title -->
             <a class="navbar-brand" href="#intro">
                 <span class="text-secondary fw-bold">
-                    Net Ninja Pro - the Book
+                    HOME
                 </span>
             </a>
             <!-- toggle button for mobile nav -->
@@ -91,7 +91,7 @@ $result = mysqli_query($connection, $query);
                     <a class="btn btn-secondary btn-lg" href="<?php echo "buynow.php?movieid=".$row['movieid']; ?>">Buy Now <?php echo $row['movieprice']; ?></a>
                 </div>
                 <div class="col-md-5 text-center d-none d-md-block">
-                    <img src="<?php echo "assets/".$row['image']; ?>" class="img-fluid"
+                    <img src="<?php echo "assets/".$row['movieimage']; ?>" class="img-fluid"
                         alt="Movieimage">
                 </div>
             </div>
